@@ -39,5 +39,4 @@ dut.ui_in[1].value = 1
 await ClockCycles(dut.clk, 25)
 assert dut.uo_out[0].value == 0
 # Keep testing the module by changing the input values, waiting for
-# one or more clock cycles, and asserting the expected output
-values.
+# one or more clock cycles, and asserting the expected output values.
